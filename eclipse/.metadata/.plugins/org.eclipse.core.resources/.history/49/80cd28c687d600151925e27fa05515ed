@@ -1,0 +1,29 @@
+package com.EranKnafo.letsModReboot.hendler;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigurationHendler {
+
+	public static Configuration configuration;
+
+	public static void init(File configFile) {
+
+		configuration = new Configuration(configFile);
+		boolean exemple = true;
+		try {
+			configuration.load();
+			exemple = configuration.get(configuration.CATEGORY_GENERAL, "exemple", false, "what is exemple do")
+					.getBoolean(true);
+		} catch (Exception e) {
+
+		} finally {
+
+			if (configuration.hasChanged()) {
+				configuration.save();
+			}
+		}
+
+	}
+}

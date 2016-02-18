@@ -1,0 +1,40 @@
+package com.EranKnafo.letsModReboot.hendler;
+
+import java.io.File;
+
+import com.EranKnafo.letsModReboot.reference.Reference;
+
+import cpw.mods.fml.client.event.ConfigChangedEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigurationHendler {
+
+	public static Configuration configuration;
+	public static boolean testValue = true;
+
+	public static void init(File configFile) {
+
+		configuration = new Configuration(configFile);
+		if(configuration==null){
+			
+		}
+
+	}
+	
+	@SubscribeEvent
+	public void onConfigurationChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event) {
+		if(event.modID.equalsIgnoreCase(Reference.MOD_ID)){
+			loadCpnfiguration();
+		}
+	}
+	
+	
+	
+	public void loadCpnfiguration() {
+		testValue = configuration.getBoolean(configuration.CATEGORY_GENERAL, "testValue", true, "what is testValue do");
+		if (configuration.hasChanged()) {
+			configuration.save();
+		}
+	}
+}

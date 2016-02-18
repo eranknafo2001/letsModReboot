@@ -1,0 +1,30 @@
+[01:23:20] [main/INFO]: Setting user: Player990
+[01:23:22] [Client thread/INFO]: LWJGL Version: 2.9.1
+[01:23:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[01:23:34] [Sound Library Loader/INFO]: Sound engine started
+[01:23:36] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[01:23:36] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[01:23:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[01:23:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[01:23:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[01:23:37] [Sound Library Loader/INFO]: Sound engine started
+[01:23:50] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[01:23:50] [Server thread/INFO]: Generating keypair
+[01:23:51] [Server thread/INFO]: Preparing start region for level 0
+[01:23:52] [Server thread/INFO]: Preparing spawn area: 93%
+[01:23:52] [Server thread/INFO]: Changing view distance to 12, from 10
+[01:23:53] [Server thread/INFO]: Player990[local:E:a36644d0] logged in with entity id 372 at (198.5, 74.0, 121.5)
+[01:23:53] [Server thread/INFO]: Player990 joined the game
+[01:24:01] [Server thread/INFO]: Saving and pausing game...
+[01:24:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:24:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:24:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:24:02] [Client thread/INFO]: Stopping!
+[01:24:02] [Server thread/INFO]: Stopping server
+[01:24:02] [Server thread/INFO]: Saving players
+[01:24:03] [Server thread/INFO]: Saving worlds
+[01:24:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:24:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:24:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:24:03] [Client Shutdown Thread/INFO]: Stopping server
+[01:24:03] [Client Shutdown Thread/INFO]: Saving players

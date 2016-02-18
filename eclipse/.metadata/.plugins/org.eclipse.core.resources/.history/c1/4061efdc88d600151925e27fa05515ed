@@ -1,0 +1,5 @@
+package com.EranKnafo.letsModReboot.client.gui;
+
+public class GuiConfig extends  {
+
+}

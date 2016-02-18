@@ -1,0 +1,5 @@
+package com.EranKnafo.letsModReboot.utility;
+
+public class LogHelper {
+
+}

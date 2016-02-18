@@ -1,0 +1,24 @@
+package com.EranKnafo.letsModReboot.configuration;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigurationHendler {
+
+	public static void init(File configFile) {
+
+		Configuration configuration = new Configuration(configFile);
+		boolean configValue = false;
+		try {
+			configuration.load();
+			configValue = configuration.get(configuration.CATEGORY_GENERAL, "configValue", true, "test1234567")
+					.getBoolean(true);
+		} catch (Exception e) {
+
+		} finally {
+			configuration.save();
+		}
+		System.out.println("test:"+configValue);
+	}
+}

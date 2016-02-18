@@ -1,0 +1,8 @@
+package com.EranKnafo.letsModReboot;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod
+public class letsModReboot {
+
+}
